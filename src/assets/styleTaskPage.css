@@ -1,0 +1,108 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fafafa;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 900px;
+    transition: all 0.3s ease-out;
+}
+
+
+
+.color {
+    border-left: 3px solid #d96438;
+}
+
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+/* Estilos para as células do cabeçalho */
+thead th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Estilos para as células do corpo */
+tbody td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Efeito de hover nas linhas da tabela */
+tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .add-task-button {
+    background-color: #da693f;
+    border-color: #da693f;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .add-task-button:hover {
+    background-color: #ef8a65;
+  }
+
+  .btn-edit{
+    color: #fff;
+    background-color: #00abff;
+    border-color: #00abff;
+    cursor: pointer;
+
+  }
+  .btn-ex{
+    color: #fff;
+    background-color: #ff0016;
+    border-color: #ff0016;
+    cursor: pointer;
+
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #d96438;
+  }
+
+  .user-button {
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 8px;
+  }
+  .system-name {
+    color: #fff;
+    font-size: 20px;
+
+  }
+  .user-button:hover {
+    cursor: pointer; 
+  }

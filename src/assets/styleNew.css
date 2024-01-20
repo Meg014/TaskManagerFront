@@ -1,0 +1,104 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fafafa;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 900px;
+    transition: all 0.3s ease-out;
+}
+
+
+
+.color {
+    border-left: 3px solid #d96438;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-task-button {
+    background-color: #da693f;
+    border-color: #da693f;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.add-task-button:hover {
+    background-color: #ef8a65;
+}
+
+.form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+  }
+
+  .form-input,
+  .form-textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .form-textarea {
+    resize: vertical; /* Allow vertical resizing */
+  }
+
+  .form-submit-button {
+    background-color: #da693f;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-out;
+  }
+
+  .form-submit-button:hover {
+    background-color: #ef8a65;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #d96438;
+  }
+
+  .user-button {
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 8px;
+  }
+  .system-name {
+    color: #fff;
+    font-size: 20px;
+
+  }
+  .user-button:hover {
+    cursor: pointer; 
+  }
